@@ -9,16 +9,23 @@ img {
 
 p {
     color: rgb(5, 5, 5);
-    font-family: sans-serif;
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+    font-style: normal;
     padding-bottom: 1.5rem;
 }
 
 h1 {
-    width: 5rem;
+    width: 20rem;
+
 }
 
 h2 {
-    font-weight: bold;
+    font-family: "brother-1816", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+    padding-bottom: .5em;
 }
 
 a {
@@ -36,9 +43,10 @@ div.container, div.home-container {
 
 nav {
     padding: 1em 0;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(92, 118, 150);
+    font-family: "brother-1816", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(142, 190, 201);
 }
 
 ul li {
@@ -56,42 +64,45 @@ section.second h2 {
 }
 
 section.tertiary h2 {
-    border-top: 1px solid rgb(92, 118, 150);
+    border-top: 1px solid rgb(142, 190, 201);
     padding-top: .5em;
     font-size: 1em;
 }
 
 h2, li a {
-    color: rgb(92, 118, 150);
+    color: rgb(142, 190, 201);
 }
 
 figcaption {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
     font-style: italic;
-    font-family: sans-serif;
     color: rgb(104, 104, 104);
     padding: .5rem 0 1.5rem;
 }
+
 
 h2, p, figcaption {
     margin: 0 .5rem;
 }
 
 aside {
-    background-color: rgb(204, 201, 257);
+    background-color: rgb(142, 190, 201);
     padding: 1rem .5rem;
 }
 
 aside h2 {
     padding-top: .5rem;
+    color: rgb(0, 0, 0);
 }
 
 article h2 {
-    font-size: 2 em;
-    padding: 1.5rem 0 .5rem 0;
+    font-size: 3em;
+    padding: 0rem 0 .5rem 0;
 }
 
 footer {
-    background-color: rgb(84, 119, 157);
+    background-color: rgb(142, 190, 201);
     width: 100%;
     padding: .5em;
     color: #eee;
